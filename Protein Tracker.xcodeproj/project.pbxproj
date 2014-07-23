@@ -14,13 +14,14 @@
 		48C0D32F19527F4500A84B39 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 48C0D32E19527F4500A84B39 /* main.m */; };
 		48C0D33319527F4500A84B39 /* Test2AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 48C0D33219527F4500A84B39 /* Test2AppDelegate.m */; };
 		48C0D33619527F4500A84B39 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48C0D33419527F4500A84B39 /* Main.storyboard */; };
-		48C0D33919527F4500A84B39 /* Test2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 48C0D33819527F4500A84B39 /* Test2ViewController.m */; };
+		48C0D33919527F4500A84B39 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 48C0D33819527F4500A84B39 /* MainViewController.m */; };
 		48C0D33B19527F4500A84B39 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48C0D33A19527F4500A84B39 /* Images.xcassets */; };
 		48C0D34219527F4500A84B39 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48C0D34119527F4500A84B39 /* XCTest.framework */; };
 		48C0D34319527F4500A84B39 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48C0D32219527F4500A84B39 /* Foundation.framework */; };
 		48C0D34419527F4500A84B39 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48C0D32619527F4500A84B39 /* UIKit.framework */; };
 		48C0D34C19527F4500A84B39 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 48C0D34A19527F4500A84B39 /* InfoPlist.strings */; };
 		48C0D34E19527F4500A84B39 /* Protein_TrackerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 48C0D34D19527F4500A84B39 /* Protein_TrackerTests.m */; };
+		48C0D359195BAE6F00A84B39 /* HistoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 48C0D358195BAE6F00A84B39 /* HistoryViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,14 +46,16 @@
 		48C0D33119527F4500A84B39 /* Test2AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Test2AppDelegate.h; sourceTree = "<group>"; };
 		48C0D33219527F4500A84B39 /* Test2AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Test2AppDelegate.m; sourceTree = "<group>"; };
 		48C0D33519527F4500A84B39 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		48C0D33719527F4500A84B39 /* Test2ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Test2ViewController.h; sourceTree = "<group>"; };
-		48C0D33819527F4500A84B39 /* Test2ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Test2ViewController.m; sourceTree = "<group>"; };
+		48C0D33719527F4500A84B39 /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		48C0D33819527F4500A84B39 /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 		48C0D33A19527F4500A84B39 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		48C0D34019527F4500A84B39 /* Protein TrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Protein TrackerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		48C0D34119527F4500A84B39 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		48C0D34919527F4500A84B39 /* Protein TrackerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Protein TrackerTests-Info.plist"; sourceTree = "<group>"; };
 		48C0D34B19527F4500A84B39 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		48C0D34D19527F4500A84B39 /* Protein_TrackerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Protein_TrackerTests.m; sourceTree = "<group>"; };
+		48C0D357195BAE6F00A84B39 /* HistoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HistoryViewController.h; sourceTree = "<group>"; };
+		48C0D358195BAE6F00A84B39 /* HistoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HistoryViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,10 +118,12 @@
 				48C0D33119527F4500A84B39 /* Test2AppDelegate.h */,
 				48C0D33219527F4500A84B39 /* Test2AppDelegate.m */,
 				48C0D33419527F4500A84B39 /* Main.storyboard */,
-				48C0D33719527F4500A84B39 /* Test2ViewController.h */,
-				48C0D33819527F4500A84B39 /* Test2ViewController.m */,
+				48C0D33719527F4500A84B39 /* MainViewController.h */,
+				48C0D33819527F4500A84B39 /* MainViewController.m */,
 				48C0D33A19527F4500A84B39 /* Images.xcassets */,
 				48C0D32919527F4500A84B39 /* Supporting Files */,
+				48C0D357195BAE6F00A84B39 /* HistoryViewController.h */,
+				48C0D358195BAE6F00A84B39 /* HistoryViewController.m */,
 			);
 			path = "Protein Tracker";
 			sourceTree = "<group>";
@@ -250,9 +255,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				48C0D33919527F4500A84B39 /* Test2ViewController.m in Sources */,
+				48C0D33919527F4500A84B39 /* MainViewController.m in Sources */,
 				48C0D32F19527F4500A84B39 /* main.m in Sources */,
 				48C0D33319527F4500A84B39 /* Test2AppDelegate.m in Sources */,
+				48C0D359195BAE6F00A84B39 /* HistoryViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
